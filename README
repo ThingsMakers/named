@@ -1,0 +1,13 @@
+### DOCKER BUILD ###
+
+docker image build -t ehrnjic/named:1.0 .
+
+### DOCKER RUN ###
+
+docker container run -d \
+-p 53:53/udp \
+--name named \
+-v /docker-vol/named/conf:/etc/bind \
+-v /docker-vol/named/log:/var/log/named \
+--restart=always \
+ehrnjic/named:1.0

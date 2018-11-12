@@ -1,0 +1,21 @@
+$TTL 1h
+
+; SOA for home
+home.	IN	SOA	ns.home		root.home. (
+					2016021501      ; Serial
+					1h              ; Refresh
+					15m             ; Retry
+					1d              ; Expire
+					1h );           ; Negative Cache TTL
+
+; name server
+home.		1800	IN	NS	ns.home.
+
+; pointer records
+gw		1800	IN	A	192.168.0.254
+ns		1800	IN	A	192.168.0.230
+docker		1800	IN	A	192.168.0.230
+oh2		1800    IN      A       192.168.0.230
+wibrg		1800	IN	A	192.168.0.251
+migw		1800	IN	A	192.168.0.242
+oh		1800	IN	A	192.168.0.21
