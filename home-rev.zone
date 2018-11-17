@@ -13,11 +13,12 @@ $TTL 1h
 ; PTR Records
 
 254	IN	PTR	gw.home.
-251	IN	PTR	wibrg.home.
-242 IN  PTR mibrg.home.
-241 IN  PTR mysbrg.home.
-240 IN  PTR rfbrg.home.
-151 IN  PTR son-4ch-gar.home.
-150 IN  PTR son-th16-dbs1.home.
-131 IN  PTR son-t1-dss1.home.
+242	IN	PTR	mibrg.home.
+243	IN	PTR	mysbrg.home.
+241	IN	PTR	rfbrg.home.
+240	IN	PTR	wibrg.home.
+151	IN	PTR	son-4ch-gar.home.
+150	IN	PTR	son-th16-dbs1.home.
+131	IN	PTR	son-t1-dss1.home.
 130	IN	PTR	son-t1-sss1.home.
+99	IN	PTR	rpi.home

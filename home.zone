@@ -19,11 +19,11 @@ docker			1800	IN	A	192.168.0.230
 oh				1800	IN	A	192.168.0.230
 mqtt			1800	IN	A	192.168.0.230
 
-wibrg			1800	IN	A	192.168.0.251
-mibrg			1800	IN	A	192.168.0.242
-mysbrg			1800	IN	A	192.168.0.241
-rfbrg			1800	IN	A	192.168.0.240
+mysbrg			1800	IN	A	192.168.0.243
+mibrg                   1800    IN      A       192.168.0.242
+rfbrg			1800	IN	A	192.168.0.241
+wibrg                   1800    IN      A       192.168.0.240
 son-4ch-gar		1800	IN	A	192.168.0.151
-son-th16-dbs1	1800	IN	A	192.168.0.150
+son-th16-dbs1		1800	IN	A	192.168.0.150
 son-t1-dss1		1800	IN	A	192.168.0.131
 son-t1-sss1		1800	IN	A	192.168.0.130
